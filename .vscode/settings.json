@@ -1,0 +1,19 @@
+{
+  "ruby.rubocop.suppressRubocopWarnings": true,
+  "ruby.rubocop.configFilePath": ".rubocop.yml",
+  "ruby.rubocop.onSave": true,
+  "[ruby]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[html.erb]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "prettier.tabWidth": 2,
+  "html.format.wrapLineLength": 350,
+  "editor.wordWrap": "off",
+  "yaml.format.printWidth": 250
+}
