@@ -49,6 +49,6 @@ group :development, :test do
   gem 'spring'  
 end
 
-group :development do
-
+group :test do
+  gem 'simplecov', require: false
 end
