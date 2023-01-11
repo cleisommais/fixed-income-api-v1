@@ -1,7 +1,18 @@
 require 'rails_helper'
 
-RSpec.describe 'Welcomes', type: :request do
-  describe 'GET /index' do
-    pending "add some examples (or delete) #{__FILE__}"
+describe 'Welcomes', type: :request do
+  scenario 'GET /api/v1/welcome' do
+    get '/api/v1/welcome'
+    expect(response).to have_http_status(:ok)
+    expect(response).to be_successful
+    expect(response.body).to include('message')
+    expect(response.body).to include('status')
+  end
+  scenario 'GET /' do
+    get '/'
+    expect(response).to have_http_status(:ok)
+    expect(response).to be_successful
+    expect(response.body).to include('message')
+    expect(response.body).to include('status')
   end
 end
