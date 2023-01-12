@@ -93,6 +93,10 @@ GEM
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
     json (2.6.3)
+    jsonapi-resources (0.10.7)
+      activerecord (>= 4.1)
+      concurrent-ruby
+      railties (>= 4.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -247,6 +251,7 @@ DEPENDENCIES
   debug
   factory_bot_rails
   faker
+  jsonapi-resources
   kredis
   pg
   puma (~> 5.0)
