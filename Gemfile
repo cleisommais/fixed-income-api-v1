@@ -49,7 +49,7 @@ group :development, :test do
   gem 'solargraph'
   gem 'sqlite3', '~> 1.4.2'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  gem 'spring'  
+  gem 'spring'
 end
 
 group :test do
